@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "Arpit Goyal",
+  "description": "Hi I'm Arpit Goyal, Developer with a penchant for Design.",
+  "icons": {
+    "60": "images/favicon/firefox_app_60x60.png",
+    "128": "images/favicon/firefox_app_128x128.png",
+    "512": "images/favicon/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Damien Seguin",
+    "url": "https://twitter.com/dmnsgn"
+  }
+}
