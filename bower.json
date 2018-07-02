@@ -1,0 +1,26 @@
+{
+  "name": "arpitgoyal",
+  "version": "0.0.1",
+  "homepage": "https://github.com/92arpitgoyal/goyalarpit",
+  "authors": [
+    "Arpit Goyal <92arpit.goyal@gmail.com>"
+  ],
+  "description": "portfolio of Arpit Goyal",
+  "main": "index.html",
+  "keywords": [
+    "Arpit",
+    "Goyal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "^4.7.0"
+  }
+}
