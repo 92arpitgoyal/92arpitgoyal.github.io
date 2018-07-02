@@ -29,6 +29,7 @@ const spritesheet = new SpritesmithPlugin({
 });
 
 const copyServerConfig = new CopyWebpackPlugin([
+  { from: "assets/resume/index.html", to: "resume/" },
   { from: "assets/serverConfig/htaccess", to: "" },
   { from: "assets/serverConfig/CNAME", to: "" }
 ]);
