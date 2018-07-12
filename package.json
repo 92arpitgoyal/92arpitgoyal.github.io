@@ -1,35 +1,20 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "arpit-goyal-website",
   "version": "3.0.0",
-  "description": "An ES201X boilerplate with common frontend tasks using webpack 4 as build system.",
+  "description": "Hi I'm Arpit Goyal, Developer with a penchant for Design. Startup guy located in Mumbai, India. Dev @ WebEngage.com, Blogger @ dlotus.com.",
   "keywords": [
-    "webpack",
-    "webpack4",
-    "boilerplate",
-    "frontend",
-    "workflow",
-    "preprocessor",
-    "framework",
-    "babel",
-    "typescript",
-    "postcss",
-    "sass",
-    "less",
-    "stylus",
-    "glsl"
+    "arpit",
+    "goyal",
+    "mumbai",
+    "india",
+    "developer",
+    "frontend"
   ],
-  "homepage": "https://github.com/dmnsgn/frontend-boilerplate",
-  "bugs": {
-    "url": "https://github.com/dmnsgn/frontend-boilerplate/issues"
-  },
+  "homepage": "https://arpitgoyal.com",
   "license": "MIT",
   "author": {
-    "name": "Damien Seguin",
-    "url": "https://twitter.com/dmnsgn"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dmnsgn/frontend-boilerplate"
+    "name": "Arpit Goyal",
+    "url": "https://arpitgoyal.com"
   },
   "scripts": {
     "favicons": "node -r esm ./config/scripts/favicons.js",
