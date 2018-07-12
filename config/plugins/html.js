@@ -48,6 +48,8 @@ const templateData = {
   title: PACKAGE.config.title,
   description: PACKAGE.config.description,
   lang: PACKAGE.config.lang,
+  keywords: PACKAGE.keywords.join(", "),
+  authorName: PACKAGE.author.name,
   og: {
     title: PACKAGE.config.title,
     type: "website",
