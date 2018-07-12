@@ -40,7 +40,7 @@
     "description": "Hi I'm Arpit Goyal, Developer with a penchant for Design. Startup guy located in Mumbai, India. Dev @ WebEngage.com, Blogger @ dlotus.com.",
     "copyright": "MIT - Damien Seguin",
     "handle": "@_arpitgoyal",
-    "analyticsUA": "UA-XXXXX-X"
+    "analyticsUA": "UA-52772725-2"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0-beta.49",
