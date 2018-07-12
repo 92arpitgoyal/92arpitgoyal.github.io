@@ -51,7 +51,7 @@ const templateData = {
   og: {
     title: PACKAGE.config.title,
     type: "website",
-    image: `${PACKAGE.config.url}/share.jpg`,
+    image: `${PACKAGE.config.url}/images/share.jpg`,
     url: PACKAGE.config.url,
     description: PACKAGE.description
   },
