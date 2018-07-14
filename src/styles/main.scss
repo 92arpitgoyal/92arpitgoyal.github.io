@@ -8,6 +8,9 @@ body{
 	padding-top: 0!important;
 	padding-bottom: 0!important;
 }
+.no-padding{
+	padding: 0!important;
+}
 .negative-margin-top{
 	position: relative;
 	top: -8px;
@@ -53,5 +56,11 @@ a.has-text-white:hover, a.has-text-white:focus {
 		&::before {
 			top: 0;
 		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.hero, .hero-body{
+		padding: 0!important;
 	}
 }
