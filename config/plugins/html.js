@@ -66,12 +66,21 @@ const templateData = {
   NODE_ENV: NODE_ENV
 };
 
-const htmlIndex = new HtmlWebpackPlugin({
-  inject: true,
-  filename: "index.html",
-  template: "templates/index.html",
-  minify: NODE_ENV === "development" ? false : minifyOptions,
-  ...templateData
-});
+const htmlIndex = [
+  new HtmlWebpackPlugin({
+    inject: true,
+    filename: "index.html",
+    template: "templates/index.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
+  }),
+  new HtmlWebpackPlugin({
+    inject: true,
+    filename: "work.html",
+    template: "templates/work.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
+  })
+];
 
 export { htmlIndex };

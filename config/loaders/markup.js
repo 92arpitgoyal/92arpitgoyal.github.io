@@ -2,7 +2,8 @@ import { NODE_ENV } from "../config";
 
 const markup = {
   test: /\.html$/,
-  exclude: /(index.html)/, // Exclude entry from the HtmlWebpackPlugin
+  // Exclude entry from the HtmlWebpackPlugin
+  exclude: [/(index.html)/, /(work.html)/],
   use: [
     {
       loader: "html-loader",

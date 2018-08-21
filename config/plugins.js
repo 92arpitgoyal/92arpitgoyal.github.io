@@ -20,7 +20,7 @@ export default [
   define,
   NODE_ENV === "development" ? HMR : 0,
   NODE_ENV === "production" ? hashedModuleIds : 0,
-  htmlIndex,
+  ...htmlIndex,
   NODE_ENV === "production" ? extractCSS : 0,
   spritesheet,
   NODE_ENV === "production" ? copyServerConfig : 0,
