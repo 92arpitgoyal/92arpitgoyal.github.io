@@ -1,8 +1,11 @@
+$color-primary: #325B7F;
+$color-secondary: rgba($color-primary, 0.9);
+
 $radius-large: 3px;
 
 @import "~bulma";
 body{
-	background-color: #325B7F;
+	background-color: $color-primary;
 }
 .is-paddingless-vertical{
 	padding-top: 0!important;
@@ -77,6 +80,6 @@ a.has-text-white:hover, a.has-text-white:focus {
 
 .box{
 	&, & .title{
-		color: #2a4cfb	
+		color: $color-secondary;
 	}
 }
