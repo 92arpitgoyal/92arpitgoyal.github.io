@@ -22,6 +22,7 @@
   "scripts": {
     "dist": "git worktree add dist master",
     "deploy": "cd dist && git add --all && git commit -m 'Deploy to GitHub pages' && git push origin master",
+    "troubleshoot": "git worktree prune && rm -rf dist && mkdir dist && npm run dist && npm run build && npm run deploy",
     "favicons": "node -r esm ./config/scripts/favicons.js",
     "sitemap": "node -r esm ./config/scripts/sitemap.js",
     "robotstxt": "node -r esm ./config/scripts/robotstxt.js",
