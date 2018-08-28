@@ -80,6 +80,13 @@ const htmlIndex = [
     template: "templates/work.html",
     minify: NODE_ENV === "development" ? false : minifyOptions,
     ...templateData
+  }),
+  new HtmlWebpackPlugin({
+    inject: true,
+    filename: "404.html",
+    template: "templates/404.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
   })
 ];
 
