@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "3H63CK9LLB.com.virginvoyages.vvguestapp",
-                "paths": [ "<Sub Domain to be added here>" ]
+                "paths": [ "*" ]
             }            
         ]
     }
