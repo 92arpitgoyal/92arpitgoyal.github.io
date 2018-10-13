@@ -4,7 +4,7 @@ $color-secondary: rgba($color-primary, 0.9);
 $radius-large: 3px;
 
 @import "~bulma";
-body{
+body.has-bg{
 	background-color: $color-primary;
 }
 .is-paddingless-vertical{

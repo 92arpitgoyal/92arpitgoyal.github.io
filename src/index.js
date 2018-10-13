@@ -15,3 +15,5 @@ import "assets/images/work/thankyouindia.png";
 import "assets/images/work/townscript.png";
 import "assets/images/work/ufaber.png";
 import "assets/images/work/webengage.png";
+
+import "assets/images/404/pirate.png";
