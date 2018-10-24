@@ -76,6 +76,7 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 .coming-soon{
+    background: rgba(255, 255, 255, 0.6);
 	&::before {
 	    content: 'Coming Soon';
 	    display: block;
