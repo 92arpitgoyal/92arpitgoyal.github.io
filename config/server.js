@@ -13,7 +13,7 @@ export default {
   //   "X-Custom-Foo": "bar"
   // },
   historyApiFallback: true,
-  host: "0.0.0.0",
+  host: "127.0.0.1",
   hot: true,
   // hotOnly: true,
   https: false,
@@ -41,7 +41,7 @@ export default {
   // staticOptions: {
   //   redirect: false
   // },
-  stats: "normal", // "errors-only" | "minimal" | "none" | "normal" | "detailed" | "verbose"
+  stats: "minimal", // "errors-only" | "minimal" | "none" | "normal" | "detailed" | "verbose"
   // useLocalIp: true,
   watchContentBase: false
   // watchOptions: {

@@ -52,5 +52,6 @@ export default {
     symlinks: true,
     cachePredicate: () => true
   },
+  stats: "minimal", // "errors-only" | "minimal" | "none" | "normal" | "detailed" | "verbose"
   plugins
 };
