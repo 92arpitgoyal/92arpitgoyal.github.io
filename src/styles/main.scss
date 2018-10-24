@@ -61,9 +61,21 @@ a.has-text-white:hover, a.has-text-white:focus {
 	}
 }
 
-.coming-soon{
+.things-i-do{
 	position: relative;
 	overflow: hidden;
+	img{
+		position: absolute;
+		height: 130px;
+		right: 0;
+		top: 10px;
+	}
+	p{
+		width: 60%;
+	}
+}
+
+.coming-soon{
 	&::before {
 	    content: 'Coming Soon';
 	    display: block;
@@ -84,15 +96,6 @@ a.has-text-white:hover, a.has-text-white:focus {
 		&::before {
 			top: 0;
 		}
-	}
-	img{
-		position: absolute;
-		height: 130px;
-		right: 0;
-		top: 10px;
-	}
-	p{
-		width: 60%;
 	}
 }
 
