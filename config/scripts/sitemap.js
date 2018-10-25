@@ -15,6 +15,12 @@ const sm = sitemap.createSitemap({
       changefreq: "weekly",
       priority: 1.0,
       lastmodrealtime: true
+    },
+    {
+      url: "/work",
+      changefreq: "weekly",
+      priority: 1.0,
+      lastmodrealtime: true
     }
   ]
 });
