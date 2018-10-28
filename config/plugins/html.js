@@ -82,6 +82,27 @@ const htmlIndex = [
     ...templateData
   }),
   new HtmlWebpackPlugin({
+    inject: false,
+    filename: "resume.html",
+    template: "templates/redirects/resume.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
+  }),
+  new HtmlWebpackPlugin({
+    inject: false,
+    filename: "blog.html",
+    template: "templates/redirects/blog.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
+  }),
+  new HtmlWebpackPlugin({
+    inject: false,
+    filename: "subscribe.html",
+    template: "templates/redirects/subscribe.html",
+    minify: NODE_ENV === "development" ? false : minifyOptions,
+    ...templateData
+  }),
+  new HtmlWebpackPlugin({
     inject: true,
     filename: "404.html",
     template: "templates/404.html",
