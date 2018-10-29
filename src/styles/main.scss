@@ -1,11 +1,10 @@
-$color-primary: #325B7F;
+$color-primary: #293dd2;
 $color-secondary: rgba($color-primary, 0.9);
-$color-tertiary: #293dd2;
 
 $radius-large: 3px;
 
 /* Bulma variables */
-$primary: $color-tertiary;
+$primary: $color-primary;
 
 /* Bulma selective imports */
 @import "~bulma/sass/utilities/_all.sass";
