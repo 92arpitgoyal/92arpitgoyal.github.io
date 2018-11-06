@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: arpitgoyal.com
+Token: f4245d5a34f354ca5d050c00f5690b41105ad51b7103632cdc093e3f805ad4ce
