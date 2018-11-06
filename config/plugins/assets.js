@@ -29,6 +29,10 @@ const spritesheet = new SpritesmithPlugin({
 });
 
 const copyServerConfig = new CopyWebpackPlugin([
+  {
+    from: "assets/serverConfig/brave-payments-verification.txt",
+    to: ".well-known/"
+  },
   { from: "assets/serverConfig/google136d93b5e8e48fd2.html", to: "" },
   { from: "assets/serverConfig/htaccess", to: "" },
   { from: "assets/serverConfig/CNAME", to: "" }
