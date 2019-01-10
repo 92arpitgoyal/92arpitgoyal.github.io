@@ -110,3 +110,21 @@ a.has-text-white:hover, a.has-text-white:focus {
 		color: $color-secondary;
 	}
 }
+
+.title.three:after {
+  content:"Bakar";
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  00% { content: "Bakar" }
+  10% { content: "Beer" }
+  20% { content: "Bakwaas" }
+  30% { content: "Bhand" }
+  40% { content: "Blogging" }
+  50% { content: "Bicycle" }
+  60% { content: "Beaches" }
+  70% { content: "Bithes" }
+  80% { content: "atque" }
+  90% { content: "fuga" }
+}
