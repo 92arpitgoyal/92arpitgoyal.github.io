@@ -1,5 +1,5 @@
 const images = {
-  test: /\.(jpe?g|png|gif)$/i,
+  test: /\.(jpe?g|png|gif|svg)$/i,
   use: [
     {
       loader: "file-loader",
@@ -29,12 +29,12 @@ const images = {
   ]
 };
 
-const svg = {
+/*const svg = {
   test: /\.svg$/,
   use: [
     { loader: "svg-sprite-loader", options: {} },
     { loader: "svgo-loader", options: {} }
   ]
-};
+};*/
 
-export { images, svg };
+export { images };

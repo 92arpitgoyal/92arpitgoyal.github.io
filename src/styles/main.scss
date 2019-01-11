@@ -26,6 +26,12 @@ $primary: $color-primary;
 
 body.has-bg{
 	background-color: $color-primary;
+	&.is-work{
+		background-image: url('../assets/images/background.svg');
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+	}
 }
 .is-paddingless-vertical{
 	padding-top: 0!important;
