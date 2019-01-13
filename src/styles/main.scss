@@ -111,8 +111,10 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 @media screen and (max-width: 600px) {
-	.hero, .hero-body{
-		padding: 0!important;
+	body:not(.is-work){
+		& .hero, & .hero-body{
+			padding: 0!important;
+		}
 	}
 }
 
