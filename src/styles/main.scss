@@ -26,6 +26,9 @@ $primary: $color-primary;
 
 body.has-bg{
 	background-color: $color-primary;
+	&.is-home{
+		background: linear-gradient(90deg, $color-primary 0%, #a8d7ff 100%);
+	}
 	&.is-work{
 		background-image: url('../assets/images/background.svg');
 		background-attachment: fixed;
