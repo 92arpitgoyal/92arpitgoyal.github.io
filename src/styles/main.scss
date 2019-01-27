@@ -206,3 +206,12 @@ a.has-text-white:hover, a.has-text-white:focus {
 		}
 	}
 }
+
+@media screen and (max-width: $tablet - 1) {
+	.work-cards figcaption a{
+		left: 50%;
+		bottom: 4px;
+	    margin-left: -53px;
+	    right: auto;
+	}
+}
