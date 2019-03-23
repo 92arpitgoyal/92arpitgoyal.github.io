@@ -18,11 +18,15 @@ import "assets/images/work/webengage.png";
 
 import "assets/images/404/pirate.png";
 
+import "assets/images/blog-2018.jpg";
+
 import Bulma from '@vizuaalog/bulmajs';
 // import Modal from '@vizuaalog/bulmajs/dist/modal';
 
-window.blogModal = Bulma.create('modal', {
-    element: document.querySelector('#blog-modal')
-});
+const element = document.querySelector('#blog-modal');
+const milliseconds = 60000*1;
 
-// blogModal.open();
+if (element) {
+	window.blogModal = Bulma.create('modal', { element });
+	window.setTimeout( () => {blogModal.open();}, milliseconds);
+}

@@ -326,11 +326,15 @@ a.has-text-white:hover, a.has-text-white:focus {
 			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
 		}
+		.content h1 {
+			font-weight: normal;
+			font-size: 1.6em;
+		}
 		.delete {
 			position: absolute;
 			cursor: pointer;
-			right: 20px;
-			top: 20px;
+			right: 10px;
+			top: 10px;
 			height: 20px;
 			width: 20px;
 			padding: 0;
