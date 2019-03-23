@@ -17,3 +17,12 @@ import "assets/images/work/ufaber.png";
 import "assets/images/work/webengage.png";
 
 import "assets/images/404/pirate.png";
+
+import Bulma from '@vizuaalog/bulmajs';
+// import Modal from '@vizuaalog/bulmajs/dist/modal';
+
+window.blogModal = Bulma.create('modal', {
+    element: document.querySelector('#blog-modal')
+});
+
+// blogModal.open();
