@@ -1,5 +1,6 @@
 # Personal portfolio website of Arpit Goyal
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abee61cb-ce74-4361-8c27-997c477baa05/deploy-status)](https://app.netlify.com/sites/arpit-goyal/deploys)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ed9f89e28c9079d91dfa/maintainability)](https://codeclimate.com/github/92arpitgoyal/92arpitgoyal.github.io/maintainability)
 [![dependencies Status](https://david-dm.org/92arpitgoyal/92arpitgoyal.github.io/status.svg)](https://david-dm.org/92arpitgoyal/92arpitgoyal.github.io)
