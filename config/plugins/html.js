@@ -90,13 +90,6 @@ const htmlIndex = [
   }),
   new HtmlWebpackPlugin({
     inject: false,
-    filename: "blog.html",
-    template: "templates/redirects/blog.html",
-    minify: NODE_ENV === "development" ? false : minifyOptions,
-    ...templateData
-  }),
-  new HtmlWebpackPlugin({
-    inject: false,
     filename: "subscribe.html",
     template: "templates/redirects/subscribe.html",
     minify: NODE_ENV === "development" ? false : minifyOptions,

@@ -8,7 +8,6 @@ const markup = {
     /(work.html)/,
     /(resume.html)/,
     /(subscribe.html)/,
-    /(blog.html)/,
     /(404.html)/
   ],
   use: [
