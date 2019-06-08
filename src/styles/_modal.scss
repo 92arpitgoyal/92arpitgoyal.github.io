@@ -1,0 +1,66 @@
+/* modal style */
+
+@media screen and (min-width: 769px), print {
+  .modal {
+    &.ad {
+      width: 300px;
+      right: 30px;
+      left: auto;
+      bottom: 30px;
+      top: auto;
+      .modal-content, .modal-card {
+        width: 300px;
+      }
+    }
+  }
+}
+
+.modal {
+  &.ad {
+    .modal-background {
+      display: none;
+    }
+    .modal-card-head {
+      padding: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+    }
+    .modal-card-foot {
+      background-color: $white;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .content h1 {
+      font-weight: normal;
+      font-size: 1.6em;
+    }
+    .delete {
+      position: absolute;
+      cursor: pointer;
+      right: 10px;
+      top: 10px;
+      height: 20px;
+      width: 20px;
+      padding: 0;
+      border: none;
+      color: #fff;
+      background: none;
+      &::after {
+        content: ' \2715';
+        font-size: 20px;
+        opacity: 0.6;
+      }
+      &:hover {
+        &::after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+/* modal style ends */
