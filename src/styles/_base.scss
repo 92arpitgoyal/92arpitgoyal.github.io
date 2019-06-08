@@ -4,6 +4,17 @@ body.has-bg{
   background-color: $color-primary;
   background: linear-gradient(90deg, $color-primary 0%, #a8d7ff 100%);
 }
+
+.is-home .hero-body .container.is-fluid{
+  background: rgba($color-primary, 0.6);
+}
+
+@media screen and (min-width: $tablet) {
+  .is-home .hero-body .container.is-fluid{
+    background: none;
+  }
+}
+
 .is-paddingless-vertical{
   padding-top: 0!important;
   padding-bottom: 0!important;
