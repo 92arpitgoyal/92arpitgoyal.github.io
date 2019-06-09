@@ -60,6 +60,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   position: absolute;
   top: 50px;
   left: 50px;
+  z-index: 2;
 }
 .go-back__wrapper{
   position: relative;
