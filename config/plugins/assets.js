@@ -34,8 +34,7 @@ const copyServerConfig = new CopyWebpackPlugin([
     to: ".well-known/"
   },
   { from: "assets/serverConfig/google136d93b5e8e48fd2.html", to: "" },
-  { from: "assets/serverConfig/htaccess", to: "" },
-  { from: "assets/serverConfig/CNAME", to: "" }
+  { from: "assets/serverConfig/htaccess", to: "" }
 ]);
 
 export { spritesheet, copyServerConfig };
