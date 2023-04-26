@@ -101,7 +101,7 @@
     "svgo-loader": "^2.1.0",
     "typescript": "^2.8.3",
     "webpack": "^4.10.1",
-    "webpack-cli": "^2.1.4",
+    "webpack-cli": "^5.0.2",
     "webpack-dev-server": "^3.1.4",
     "webpack-spritesmith": "^0.5.3",
     "webpack-stats-plugin": "^0.2.1"
